@@ -29,7 +29,7 @@ Associated with **Section 5.1.1 (Malicious FRMR Injection DoS)**.
 
 ### 4. `Broadcast_DOS_anonymized.log`  
 Associated with **Section 5.1.2 (Broadcast DoS)**.  
-Demonstrates how leveraging AVLC `U DISC` frames with the broadcast address allows indefinite disruption at negligible cost.  
+Demonstrates how leveraging AVLC U DISC frames with the broadcast address allows indefinite disruption at negligible cost.  
 The attack was launched across multiple protocol stages, including:  
 - During IDRP updates  
 - Immediately before CPDLC message processing (causing message loss)  
