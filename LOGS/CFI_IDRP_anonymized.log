@@ -1,0 +1,4730 @@
+
+[2025-08-25 14:20:09.571 CEST] [136.975] [-5.9/-48.5 dBFS] [42.5 dB] [1.2 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+
+[2025-08-25 14:20:31.057 CEST] [136.975] [-9.0/-49.1 dBFS] [40.1 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+
+
+[2025-08-25 14:22:11.478 CEST] [136.975] [-6.5/-49.2 dBFS] [42.6 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:22:11.935 CEST] [136.975] [-6.4/-49.1 dBFS] [42.7 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 1 retry: 0
+   AVLC specific options: 64
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:22:12.086 CEST] [136.975] [1.7/-49.2 dBFS] [50.9 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 1 More: 0 Ack: ! Msg num: M00A
+
+[2025-08-25 14:22:12.391 CEST] [136.975] [-10.0/-49.3 dBFS] [39.3 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 1
+
+[2025-08-25 14:22:12.848 CEST] [136.975] [-9.9/-48.9 dBFS] [39.0 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Call Accepted: grp: 11 chan: 255 src: 22677777 dst: 1116900402899
+  Facilities:
+   Max. packet size:
+    From calling DTE: 256 bytes
+    From called  DTE: 256 bytes
+   Window size:
+    From calling DTE: 4 packets
+    From called  DTE: 4 packets
+   Called line address modified: 0f
+  Compression support: LREF, LREF-CAN
+  M/I: 0
+  ES-IS IS Hello: Hold Time: 65534 sec
+   NET: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Options:
+    ATN Data Link Capabilities: 01
+    Mobile Subnetwork Capabilities:
+     Permitted traffic: all
+     Supported ATSC classes: A
+
+[2025-08-25 14:22:12.849 CEST] [136.975] [-10.0/-48.7 dBFS] [38.7 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data:
+   Src NSAP: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Dst NSAP: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+   Lifetime: 20.0 sec
+   Flags: SP E/R
+   Segmentation:
+    PDU Id: 0x2b1e
+    Segment offset: 0
+    PDU total length: 140
+    CLNP reasm status: skipped
+   Options:
+    LRef: 0x40
+    QoS maintenance: 0xd6
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Traffic type:
+       Type: ATN system management
+       Category: none
+       Route policy: 0x00
+    Priority: 0x0e
+   IDRP Open: seq: 2 ack: 0 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:22:13.610 CEST] [136.975] [-9.9/-49.6 dBFS] [39.7 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2b25
+   IDRP Keepalive: seq: 3 ack: 1 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:22:13.762 CEST] [136.975] [-10.0/-49.5 dBFS] [39.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2b26
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3769
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:22:14.221 CEST] [136.975] [-12.9/-49.5 dBFS] [36.5 dB] [2.6 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x2b36
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:22:14.677 CEST] [136.975] [-10.2/-49.5 dBFS] [39.3 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:22:14.830 CEST] [136.975] [1.9/-49.4 dBFS] [51.3 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:22:14.831 CEST] [136.975] [-10.3/-49.3 dBFS] [39.1 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  c1 9a 08
+
+[2025-08-25 14:22:14.831 CEST] [136.975] [2.0/-49.3 dBFS] [51.3 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:22:14.982 CEST] [136.975] [1.7/-49.0 dBFS] [50.7 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 4
+
+[2025-08-25 14:22:15.134 CEST] [136.975] [-10.4/-49.1 dBFS] [38.7 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:22:15.439 CEST] [136.975] [1.9/-49.4 dBFS] [51.3 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x3
+   IDRP Cease: seq: 3 ack: 3 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:22:16.505 CEST] [136.975] [1.6/-48.8 dBFS] [50.5 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:22:17.267 CEST] [136.975] [-6.2/-49.2 dBFS] [43.0 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:22:21.078 CEST] [136.975] [-9.0/-48.8 dBFS] [39.7 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:22:22.907 CEST] [136.975] [1.7/-48.9 dBFS] [50.7 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:22:23.668 CEST] [136.975] [-6.2/-48.7 dBFS] [42.6 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+
+[2025-08-25 14:22:28.545 CEST] [136.975] [-6.6/-48.7 dBFS] [42.1 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2bdb
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3769
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:22:28.848 CEST] [136.975] [-8.6/-48.9 dBFS] [40.4 dB] [2.7 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x2beb
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:22:29.153 CEST] [136.975] [1.8/-48.7 dBFS] [50.4 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:22:29.154 CEST] [136.975] [-6.7/-48.7 dBFS] [42.0 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  68 82 08
+
+[2025-08-25 14:22:29.306 CEST] [136.975] [1.6/-48.8 dBFS] [50.4 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:22:32.964 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:22:32.966 CEST] [136.975] [-6.8/-48.9 dBFS] [42.1 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:22:33.420 CEST] [136.975] [1.8/-49.4 dBFS] [51.2 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:22:34.181 CEST] [136.975] [-6.8/-48.6 dBFS] [41.9 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:22:43.019 CEST] [136.975] [1.8/-48.8 dBFS] [50.6 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:22:43.631 CEST] [136.975] [-6.3/-49.3 dBFS] [43.0 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2c54
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3769
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:22:43.782 CEST] [136.975] [-8.7/-49.0 dBFS] [40.3 dB] [2.6 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x2c64
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:22:44.241 CEST] [136.975] [2.0/-48.9 dBFS] [51.0 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:22:44.392 CEST] [136.975] [-6.4/-48.8 dBFS] [42.5 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  66 62 08
+
+[2025-08-25 14:22:44.393 CEST] [136.975] [1.7/-49.1 dBFS] [50.8 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:22:44.696 CEST] [136.975] [1.7/-49.2 dBFS] [50.9 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x4
+   IDRP Open: seq: 3 ack: 3 credit_offered: 3 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:22:44.698 CEST] [136.975] [-10.2/-49.3 dBFS] [39.1 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:22:45.765 CEST] [136.975] [-10.1/-49.5 dBFS] [39.4 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:22:53.841 CEST] [136.975] [-6.7/-49.2 dBFS] [42.5 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:22:58.107 CEST] [136.975] [1.7/-48.7 dBFS] [50.4 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:22:58.715 CEST] [136.975] [-6.7/-49.1 dBFS] [42.4 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2d0f
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3769
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:22:58.869 CEST] [136.975] [-8.3/-48.6 dBFS] [40.3 dB] [2.7 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x2d1f
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:22:59.630 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x5
+   IDRP Error: seq: 4 ack: 3 credit_offered: 0 credit_avail: 3
+    Code: 4 (FSM error)
+    Erroneous BISPDU type: Error
+    FSM state: OPEN-RCVD
+
+[2025-08-25 14:22:59.631 CEST] [136.975] [-6.6/-49.0 dBFS] [42.4 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  88 84 08
+
+[2025-08-25 14:22:59.935 CEST] [136.975] [2.0/-49.1 dBFS] [51.0 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:23:03.135 CEST] [136.975] [1.7/-48.9 dBFS] [50.7 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:23:03.136 CEST] [136.975] [-6.3/-48.9 dBFS] [42.5 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x01 (Invalid P(S))
+
+[2025-08-25 14:23:04.355 CEST] [136.975] [-6.3/-49.0 dBFS] [42.7 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:23:13.650 CEST] [136.975] [-10.3/-49.1 dBFS] [38.9 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2da6
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3769
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:23:13.802 CEST] [136.975] [-12.5/-49.4 dBFS] [37.0 dB] [2.5 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x2db6
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:23:14.565 CEST] [136.975] [2.0/-48.8 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:23:22.945 CEST] [136.975] [2.1/-48.7 dBFS] [50.8 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:23:23.403 CEST] [136.975] [1.8/-49.5 dBFS] [51.4 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:23:24.164 CEST] [136.975] [-6.2/-48.7 dBFS] [42.6 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:23:28.585 CEST] [136.975] [-6.3/-48.8 dBFS] [42.5 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2e3b
+   IDRP Cease: seq: 4 ack: 2 credit_offered: 0 credit_avail: 2
+
+[2025-08-25 14:23:29.193 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x6
+   IDRP Open: seq: 4 ack: 3 credit_offered: 3 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:23:29.346 CEST] [136.975] [-10.3/-49.1 dBFS] [38.8 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2e4a
+   IDRP Cease: seq: 4 ack: 2 credit_offered: 0 credit_avail: 2
+
+[2025-08-25 14:23:29.955 CEST] [136.975] [2.0/-48.9 dBFS] [50.9 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x7
+   IDRP Cease: seq: 5 ack: 3 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:23:30.718 CEST] [136.975] [-6.4/-49.0 dBFS] [42.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:23:33.307 CEST] [136.975] [2.0/-49.1 dBFS] [51.1 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:23:33.460 CEST] [136.975] [-6.4/-48.9 dBFS] [42.5 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 3
+
+[2025-08-25 14:23:33.917 CEST] [136.975] [1.8/-49.4 dBFS] [51.2 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:23:40.165 CEST] [136.975] [-6.3/-48.9 dBFS] [42.6 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2ed6
+   IDRP Open: seq: 5 ack: 2 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:23:40.623 CEST] [136.975] [-9.9/-49.2 dBFS] [39.2 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2eda
+   IDRP Keepalive: seq: 6 ack: 5 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:23:41.841 CEST] [136.975] [-9.9/-49.6 dBFS] [39.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 6 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2edb
+   IDRP Update: seq: 6 ack: 5 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3770
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:23:41.841 CEST] [136.975] [-9.9/-49.6 dBFS] [39.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 7
+
+[2025-08-25 14:23:41.993 CEST] [136.975] [-12.4/-49.5 dBFS] [37.0 dB] [2.4 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 7 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x2eeb
+   IDRP Cease: seq: 6 ack: 5 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:23:42.144 CEST] [136.975] [1.7/-49.2 dBFS] [51.0 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Initiation
+  Public params:
+   Parameter set ID: 8885:1993
+   HDLC options: 20 84 80
+   Procedure classes: 00 01
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 2 retry: 0
+   AVLC specific options: 24
+   Aircraft location: xN yE 0 ft
+
+[2025-08-25 14:23:42.146 CEST] [136.975] [-12.5/-48.8 dBFS] [36.2 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: U (XID) P/F: 1
+ XID: Handoff Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 01
+   XID sequencing: seq: 2 retry: 0
+   AVLC specific options: 64
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:23:42.298 CEST] [136.975] [-10.2/-48.8 dBFS] [38.6 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 7 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2eea
+   IDRP Keepalive: seq: 7 ack: 6 credit_offered: 4 credit_avail: 2
+
+[2025-08-25 14:23:42.756 CEST] [136.975] [2.0/-49.3 dBFS] [51.4 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 6
+
+[2025-08-25 14:23:42.756 CEST] [136.975] [-12.6/-49.3 dBFS] [36.8 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 1
+
+[2025-08-25 14:23:43.365 CEST] [136.975] [1.8/-49.4 dBFS] [51.2 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Call Request: grp: 11 chan: 255 src: 22677777 dst: none
+  Facilities:
+   Fast Select: requested
+   Called address extension: 8c 53 49 54 00 00 01	".SIT..."
+  Compression support: LREF, LREF-CAN
+  M/I: 1
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:23:43.517 CEST] [136.975] [-10.2/-49.1 dBFS] [38.9 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 0
+
+[2025-08-25 14:23:43.670 CEST] [136.975] [-12.6/-49.3 dBFS] [36.8 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Call Accepted: grp: 11 chan: 255 src: 22677777 dst: 1116900402899
+  Facilities:
+   Max. packet size:
+    From calling DTE: 256 bytes
+    From called  DTE: 256 bytes
+   Window size:
+    From calling DTE: 4 packets
+    From called  DTE: 4 packets
+   Called line address modified: 0f
+  Compression support: LREF, LREF-CAN
+  M/I: 1
+  ES-IS IS Hello: Hold Time: 65534 sec
+   NET: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Options:
+    ATN Data Link Capabilities: 01
+    Mobile Subnetwork Capabilities:
+     Permitted traffic: all
+     Supported ATSC classes: A
+
+[2025-08-25 14:23:43.974 CEST] [136.975] [-12.6/-49.4 dBFS] [36.8 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2efb
+   IDRP Cease: seq: 7 ack: 6 credit_offered: 0 credit_avail: 2
+
+[2025-08-25 14:23:44.584 CEST] [136.975] [-10.0/-49.4 dBFS] [39.3 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 1
+
+[2025-08-25 14:23:44.889 CEST] [136.975] [-12.5/-49.2 dBFS] [36.6 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2f04
+   IDRP Open: seq: 8 ack: 7 credit_offered: 4 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:23:44.890 CEST] [136.975] [1.6/-49.4 dBFS] [51.0 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:23:45.042 CEST] [136.975] [-9.9/-49.2 dBFS] [39.2 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 2 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 7
+
+[2025-08-25 14:23:45.346 CEST] [136.975] [-12.6/-49.2 dBFS] [36.6 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x2f0b
+   IDRP Cease: seq: 9 ack: 7 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:23:45.955 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 1
+
+[2025-08-25 14:23:46.260 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0xd
+   IDRP Open: seq: 8 ack: 8 credit_offered: 3 credit_avail: 4
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:23:47.022 CEST] [136.975] [-12.5/-49.0 dBFS] [36.5 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 5
+
+[2025-08-25 14:23:47.328 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0xe
+   IDRP Cease: seq: 9 ack: 8 credit_offered: 0 credit_avail: 4
+
+[2025-08-25 14:23:47.479 CEST] [136.975] [-12.5/-49.5 dBFS] [36.9 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 4
+
+[2025-08-25 14:23:47.937 CEST] [136.975] [1.8/-49.5 dBFS] [51.3 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:23:52.965 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 6 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:23:53.726 CEST] [136.975] [-8.9/-48.7 dBFS] [39.8 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 7
+
+
+[2025-08-25 14:24:03.024 CEST] [136.975] [2.0/-49.4 dBFS] [51.4 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 7 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:24:03.175 CEST] [136.975] [-8.9/-49.3 dBFS] [40.5 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 6 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 6
+
+[2025-08-25 14:24:03.632 CEST] [136.975] [1.7/-48.9 dBFS] [50.5 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 7
+
+[2025-08-25 14:24:13.233 CEST] [136.975] [1.7/-49.1 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:24:13.994 CEST] [136.975] [-9.3/-48.9 dBFS] [39.6 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 1
+
+[2025-08-25 14:24:22.072 CEST] [136.975] [-9.1/-49.0 dBFS] [39.8 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:24:22.984 CEST] [136.975] [1.7/-48.5 dBFS] [50.2 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:24:22.985 CEST] [136.975] [-9.2/-48.6 dBFS] [39.4 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 7 rseq: 2 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 0
+
+
+[2025-08-25 14:24:27.252 CEST] [136.975] [1.9/-49.0 dBFS] [50.9 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 1 More: 0 Ack: ! Msg num: M00A
+
+[2025-08-25 14:24:27.710 CEST] [136.975] [-8.9/-48.9 dBFS] [40.1 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 3 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 1
+
+[2025-08-25 14:24:28.318 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 1
+
+[2025-08-25 14:24:31.519 CEST] [136.975] [-6.3/-48.9 dBFS] [42.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:24:33.805 CEST] [136.975] [-8.9/-48.6 dBFS] [39.8 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:24:43.252 CEST] [136.975] [-8.8/-48.2 dBFS] [39.4 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:24:44.166 CEST] [136.975] [1.8/-48.8 dBFS] [50.6 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:24:46.757 CEST] [136.975] [-8.9/-48.7 dBFS] [39.8 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:24:46.909 CEST] [136.975] [1.6/-48.9 dBFS] [50.6 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:24:53.005 CEST] [136.975] [1.9/-48.7 dBFS] [50.6 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 5 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:24:53.767 CEST] [136.975] [-9.2/-48.8 dBFS] [39.6 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:25:03.215 CEST] [136.975] [1.6/-48.8 dBFS] [50.5 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 6 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:25:03.367 CEST] [136.975] [-9.4/-48.5 dBFS] [39.1 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 7 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 4
+
+[2025-08-25 14:25:03.824 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:25:12.206 CEST] [136.975] [1.7/-48.8 dBFS] [50.5 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: U (DISC) P/F: 0
+
+
+[2025-08-25 14:26:35.102 CEST] [136.975] [-9.3/-48.6 dBFS] [39.3 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:26:51.559 CEST] [136.975] [-6.5/-49.0 dBFS] [42.6 dB] [1.2 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+
+
+[2025-08-25 14:28:35.179 CEST] [136.975] [-9.4/-48.4 dBFS] [38.9 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:28:41.427 CEST] [136.975] [-6.1/-48.8 dBFS] [42.7 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 3 retry: 0
+   AVLC specific options: 64
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:28:41.580 CEST] [136.975] [1.7/-48.5 dBFS] [50.2 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 2 More: 0 Ack: ! Msg num: M01A
+
+[2025-08-25 14:28:41.732 CEST] [136.975] [-9.9/-49.3 dBFS] [39.4 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 2
+
+[2025-08-25 14:28:42.340 CEST] [136.975] [-9.9/-49.7 dBFS] [39.7 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Call Accepted: grp: 11 chan: 255 src: 22677777 dst: 1116900402899
+  Facilities:
+   Max. packet size:
+    From calling DTE: 256 bytes
+    From called  DTE: 256 bytes
+   Window size:
+    From calling DTE: 4 packets
+    From called  DTE: 4 packets
+   Called line address modified: 0f
+  Compression support: LREF, LREF-CAN
+  M/I: 0
+  ES-IS IS Hello: Hold Time: 65534 sec
+   NET: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Options:
+    ATN Data Link Capabilities: 01
+    Mobile Subnetwork Capabilities:
+     Permitted traffic: all
+     Supported ATSC classes: A
+
+[2025-08-25 14:28:42.341 CEST] [136.975] [-9.9/-49.6 dBFS] [39.6 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data:
+   Src NSAP: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Dst NSAP: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+   Lifetime: 20.0 sec
+   Flags: SP E/R
+   Segmentation:
+    PDU Id: 0x3aed
+    Segment offset: 0
+    PDU total length: 140
+    CLNP reasm status: skipped
+   Options:
+    LRef: 0x40
+    QoS maintenance: 0xd6
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Traffic type:
+       Type: ATN system management
+       Category: none
+       Route policy: 0x00
+    Priority: 0x0e
+   IDRP Open: seq: 2 ack: 0 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:28:42.799 CEST] [136.975] [-9.8/-49.4 dBFS] [39.6 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3af2
+   IDRP Keepalive: seq: 3 ack: 1 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:28:42.951 CEST] [136.975] [-9.8/-49.1 dBFS] [39.4 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3af3
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1601
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:28:43.103 CEST] [136.975] [-12.0/-49.3 dBFS] [37.2 dB] [2.7 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3b03
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:28:43.407 CEST] [136.975] [-9.8/-49.4 dBFS] [39.6 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  c6 66 08
+
+[2025-08-25 14:28:43.712 CEST] [136.975] [2.0/-49.4 dBFS] [51.4 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:28:43.713 CEST] [136.975] [1.9/-49.4 dBFS] [51.3 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 4
+
+[2025-08-25 14:28:43.713 CEST] [136.975] [-9.8/-49.5 dBFS] [39.7 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:28:44.018 CEST] [136.975] [1.9/-49.4 dBFS] [51.4 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x11
+   IDRP Cease: seq: 3 ack: 3 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:28:44.779 CEST] [136.975] [-9.7/-49.4 dBFS] [39.8 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:28:45.084 CEST] [136.975] [1.9/-49.5 dBFS] [51.4 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:28:45.846 CEST] [136.975] [-9.8/-49.3 dBFS] [39.5 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:28:52.400 CEST] [136.975] [1.9/-49.1 dBFS] [51.0 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:28:53.161 CEST] [136.975] [-6.1/-49.1 dBFS] [43.0 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:28:57.885 CEST] [136.975] [-6.0/-48.8 dBFS] [42.8 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3b8b
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1601
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:28:58.037 CEST] [136.975] [-8.7/-48.8 dBFS] [40.1 dB] [2.6 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3b9b
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:28:58.798 CEST] [136.975] [1.7/-48.8 dBFS] [50.4 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:28:58.800 CEST] [136.975] [-6.0/-48.8 dBFS] [42.8 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  68 82 08
+
+[2025-08-25 14:28:58.951 CEST] [136.975] [1.5/-48.7 dBFS] [50.2 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:29:01.694 CEST] [136.975] [-5.9/-49.2 dBFS] [43.3 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:29:02.608 CEST] [136.975] [1.6/-48.8 dBFS] [50.4 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:29:02.609 CEST] [136.975] [-6.0/-49.0 dBFS] [43.0 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:29:03.523 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:29:04.286 CEST] [136.975] [-6.0/-48.9 dBFS] [42.9 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:29:12.515 CEST] [136.975] [1.6/-49.1 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:29:12.970 CEST] [136.975] [-10.0/-49.1 dBFS] [39.1 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3c1c
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1601
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:29:13.123 CEST] [136.975] [-8.5/-49.3 dBFS] [40.8 dB] [2.5 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3c2c
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:29:13.428 CEST] [136.975] [2.0/-49.0 dBFS] [51.0 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+
+[2025-08-25 14:29:16.779 CEST] [136.975] [-6.0/-48.9 dBFS] [42.8 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3c1c
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1601
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:29:16.781 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:29:17.695 CEST] [136.975] [1.7/-49.1 dBFS] [50.8 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:29:21.046 CEST] [136.975] [-6.3/-49.0 dBFS] [42.7 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  61 72 08
+
+[2025-08-25 14:29:21.199 CEST] [136.975] [2.0/-48.7 dBFS] [50.7 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:29:21.503 CEST] [136.975] [-10.1/-48.7 dBFS] [38.7 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:29:22.418 CEST] [136.975] [1.8/-48.8 dBFS] [50.5 dB] [0.4 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:29:23.028 CEST] [136.975] [-6.2/-48.6 dBFS] [42.4 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:29:23.638 CEST] [136.975] [2.0/-49.0 dBFS] [50.9 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:29:24.400 CEST] [136.975] [-6.4/-48.9 dBFS] [42.5 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:29:26.533 CEST] [136.975] [1.8/-48.5 dBFS] [50.4 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 2 More: 0 Ack: ! Msg num: M01A
+
+[2025-08-25 14:29:26.838 CEST] [136.975] [-9.8/-48.8 dBFS] [39.0 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 2
+
+[2025-08-25 14:29:27.448 CEST] [136.975] [1.8/-48.8 dBFS] [50.6 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:29:27.904 CEST] [136.975] [-6.2/-48.7 dBFS] [42.5 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3cba
+   IDRP Update: seq: 3 ack: 1 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1601
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:29:28.056 CEST] [136.975] [-8.4/-48.8 dBFS] [40.4 dB] [2.5 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3cca
+   IDRP Cease: seq: 3 ack: 1 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:29:28.361 CEST] [136.975] [-9.8/-49.0 dBFS] [39.2 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3cc1
+   IDRP Cease: seq: 4 ack: 1 credit_offered: 0 credit_avail: 2
+
+[2025-08-25 14:29:28.362 CEST] [136.975] [1.9/-48.9 dBFS] [50.9 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:29:28.513 CEST] [136.975] [1.9/-49.1 dBFS] [51.0 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+
+[2025-08-25 14:29:32.476 CEST] [136.975] [-6.2/-49.2 dBFS] [43.0 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 5
+
+[2025-08-25 14:29:32.780 CEST] [136.975] [1.9/-49.3 dBFS] [51.2 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:29:33.542 CEST] [136.975] [-9.6/-49.3 dBFS] [39.7 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:29:38.267 CEST] [136.975] [-6.1/-48.9 dBFS] [42.8 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3d2a
+   IDRP Open: seq: 5 ack: 1 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:29:38.722 CEST] [136.975] [-10.0/-48.6 dBFS] [38.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3d32
+   IDRP Keepalive: seq: 6 ack: 4 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:29:38.723 CEST] [136.975] [-10.0/-48.7 dBFS] [38.7 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3d33
+   IDRP Update: seq: 6 ack: 4 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1602
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:29:38.875 CEST] [136.975] [-12.4/-48.9 dBFS] [36.4 dB] [2.6 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 7 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3d43
+   IDRP Cease: seq: 6 ack: 4 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:29:39.180 CEST] [136.975] [-10.0/-49.0 dBFS] [39.0 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  0e ea 08
+
+[2025-08-25 14:29:39.486 CEST] [136.975] [1.6/-49.3 dBFS] [50.9 dB] [-0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:29:39.637 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 6
+
+[2025-08-25 14:29:39.638 CEST] [136.975] [-10.0/-49.3 dBFS] [39.3 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:29:40.095 CEST] [136.975] [1.8/-49.5 dBFS] [51.3 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x16
+   IDRP Cease: seq: 6 ack: 6 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:29:40.857 CEST] [136.975] [-9.9/-49.2 dBFS] [39.4 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:29:41.314 CEST] [136.975] [1.6/-49.0 dBFS] [50.6 dB] [0.4 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:29:42.076 CEST] [136.975] [-6.3/-49.0 dBFS] [42.7 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:29:42.533 CEST] [136.975] [2.0/-48.7 dBFS] [50.6 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:29:43.296 CEST] [136.975] [-6.2/-48.8 dBFS] [42.6 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:29:52.590 CEST] [136.975] [2.0/-48.9 dBFS] [50.9 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 4 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:29:52.591 CEST] [136.975] [-6.2/-49.1 dBFS] [42.9 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:29:53.199 CEST] [136.975] [1.8/-48.9 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:29:53.656 CEST] [136.975] [-6.4/-48.8 dBFS] [42.4 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3dce
+   IDRP Update: seq: 6 ack: 4 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1602
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:29:53.809 CEST] [136.975] [-8.5/-48.9 dBFS] [40.5 dB] [2.7 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3dde
+   IDRP Cease: seq: 6 ack: 4 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:29:53.961 CEST] [136.975] [1.8/-48.8 dBFS] [50.6 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:29:53.962 CEST] [136.975] [-6.2/-49.0 dBFS] [42.8 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  8a a4 08
+
+[2025-08-25 14:29:54.113 CEST] [136.975] [1.9/-48.9 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:30:02.495 CEST] [136.975] [1.8/-49.1 dBFS] [50.9 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:30:02.646 CEST] [136.975] [-6.5/-48.9 dBFS] [42.3 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:30:02.952 CEST] [136.975] [1.9/-49.0 dBFS] [50.9 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:30:03.563 CEST] [136.975] [-6.5/-49.3 dBFS] [42.8 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:30:08.591 CEST] [136.975] [-6.2/-48.9 dBFS] [42.7 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3e4e
+   IDRP Update: seq: 6 ack: 4 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1602
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:30:09.199 CEST] [136.975] [-6.2/-48.9 dBFS] [42.7 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  64 42 08
+
+[2025-08-25 14:30:09.351 CEST] [136.975] [1.9/-48.8 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:30:09.505 CEST] [136.975] [-10.0/-49.2 dBFS] [39.2 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:30:09.961 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:30:10.724 CEST] [136.975] [-6.2/-49.2 dBFS] [42.9 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:30:11.486 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: U (DISC) P/F: 0
+
+[2025-08-25 14:30:12.400 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment
+  Public params:
+   Parameter set ID: 8885:1993
+   HDLC options: 20 84 80
+   Procedure classes: 00 01
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 4 retry: 0
+   AVLC specific options: 24
+   Modulation support: VDL-M2, D8PSK, 31500 bps
+   Aircraft location: xN yE 0 ft
+
+[2025-08-25 14:30:12.552 CEST] [136.975] [-9.1/-49.2 dBFS] [40.1 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 4 retry: 0
+   AVLC specific options: 64
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:30:12.553 CEST] [136.975] [1.9/-49.0 dBFS] [50.9 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 3 More: 0 Ack: ! Msg num: M02A
+
+[2025-08-25 14:30:13.010 CEST] [136.975] [-12.8/-49.4 dBFS] [36.6 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 3
+
+[2025-08-25 14:30:13.313 CEST] [136.975] [1.8/-49.1 dBFS] [50.9 dB] [0.4 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Call Request: grp: 11 chan: 255 src: 22677777 dst: none
+  Facilities:
+   Fast Select: requested
+   Called address extension: 8c 53 49 54 00 00 01	".SIT..."
+  Compression support: LREF, LREF-CAN
+  M/I: 0
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:30:13.619 CEST] [136.975] [-12.8/-49.4 dBFS] [36.6 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Call Accepted: grp: 11 chan: 255 src: 22677777 dst: 1116900402899
+  Facilities:
+   Max. packet size:
+    From calling DTE: 256 bytes
+    From called  DTE: 256 bytes
+   Window size:
+    From calling DTE: 4 packets
+    From called  DTE: 4 packets
+   Called line address modified: 0f
+  Compression support: LREF, LREF-CAN
+  M/I: 0
+  ES-IS IS Hello: Hold Time: 65534 sec
+   NET: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Options:
+    ATN Data Link Capabilities: 01
+    Mobile Subnetwork Capabilities:
+     Permitted traffic: all
+     Supported ATSC classes: A
+
+[2025-08-25 14:30:13.619 CEST] [136.975] [-12.8/-49.1 dBFS] [36.3 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data:
+   Src NSAP: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Dst NSAP: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+   Lifetime: 20.0 sec
+   Flags: SP E/R
+   Segmentation:
+    PDU Id: 0x3e85
+    Segment offset: 0
+    PDU total length: 140
+    CLNP reasm status: skipped
+   Options:
+    LRef: 0x40
+    QoS maintenance: 0xd6
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Traffic type:
+       Type: ATN system management
+       Category: none
+       Route policy: 0x00
+    Priority: 0x0e
+   IDRP Open: seq: 8 ack: 4 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:30:14.076 CEST] [136.975] [1.7/-49.2 dBFS] [51.0 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x18
+   IDRP Open: seq: 6 ack: 8 credit_offered: 3 credit_avail: 4
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:30:14.229 CEST] [136.975] [-12.8/-49.4 dBFS] [36.6 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3e8f
+   IDRP Keepalive: seq: 9 ack: 6 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:30:14.381 CEST] [136.975] [-12.8/-49.2 dBFS] [36.4 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3e90
+   IDRP Update: seq: 9 ack: 6 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1603
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:30:14.532 CEST] [136.975] [-12.1/-49.1 dBFS] [37.0 dB] [2.4 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3ea0
+   IDRP Cease: seq: 9 ack: 6 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:30:18.952 CEST] [136.975] [-8.8/-49.1 dBFS] [40.2 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3e8f
+   IDRP Keepalive: seq: 9 ack: 6 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:30:18.952 CEST] [136.975] [-8.8/-49.1 dBFS] [40.2 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3e90
+   IDRP Update: seq: 9 ack: 6 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1603
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:30:19.104 CEST] [136.975] [-8.5/-49.0 dBFS] [40.6 dB] [2.4 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3ea0
+   IDRP Cease: seq: 9 ack: 6 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:30:19.257 CEST] [136.975] [1.8/-48.7 dBFS] [50.5 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 3 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x19
+   IDRP Update: seq: 7 ack: 8 credit_offered: 3 credit_avail: 3
+    Route:
+     ID: 5
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: all
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+
+[2025-08-25 14:30:19.257 CEST] [136.975] [1.7/-48.7 dBFS] [50.4 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:30:19.409 CEST] [136.975] [-12.6/-48.8 dBFS] [36.3 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  c6 66 08
+
+[2025-08-25 14:30:19.561 CEST] [136.975] [1.8/-49.1 dBFS] [50.9 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:30:19.867 CEST] [136.975] [-12.6/-49.2 dBFS] [36.6 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:30:20.324 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x1a
+   IDRP Cease: seq: 8 ack: 9 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:30:21.086 CEST] [136.975] [-12.7/-49.3 dBFS] [36.6 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:30:21.694 CEST] [136.975] [1.7/-49.1 dBFS] [50.9 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:30:22.456 CEST] [136.975] [-8.9/-48.7 dBFS] [39.7 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:30:23.829 CEST] [136.975] [1.6/-48.8 dBFS] [50.5 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:30:24.591 CEST] [136.975] [-8.5/-49.1 dBFS] [40.6 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:30:29.162 CEST] [136.975] [-8.7/-49.0 dBFS] [40.3 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3f22
+   IDRP Update: seq: 9 ack: 6 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1603
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:30:29.466 CEST] [136.975] [-8.4/-48.7 dBFS] [40.4 dB] [2.4 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x3f32
+   IDRP Cease: seq: 9 ack: 6 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:30:29.923 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:30:30.074 CEST] [136.975] [-8.9/-49.0 dBFS] [40.1 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  68 82 08
+
+[2025-08-25 14:30:30.533 CEST] [136.975] [1.7/-48.6 dBFS] [50.3 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:30:34.037 CEST] [136.975] [1.6/-49.2 dBFS] [50.9 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:30:34.039 CEST] [136.975] [-8.9/-48.9 dBFS] [39.9 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:30:35.104 CEST] [136.975] [-8.6/-48.8 dBFS] [40.1 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:30:43.942 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:30:44.247 CEST] [136.975] [-12.7/-49.5 dBFS] [36.8 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x3fbe
+   IDRP Update: seq: 9 ack: 6 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1603
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:30:44.704 CEST] [136.975] [-8.9/-49.1 dBFS] [40.2 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  66 62 08
+
+[2025-08-25 14:30:45.467 CEST] [136.975] [2.0/-49.5 dBFS] [51.5 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:30:46.229 CEST] [136.975] [-8.8/-49.3 dBFS] [40.6 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:30:49.124 CEST] [136.975] [-8.9/-48.9 dBFS] [39.9 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:30:54.152 CEST] [136.975] [1.7/-48.8 dBFS] [50.6 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:30:54.914 CEST] [136.975] [-9.0/-49.1 dBFS] [40.1 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+
+[2025-08-25 14:30:57.506 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 3 More: 0 Ack: ! Msg num: M02A
+
+[2025-08-25 14:30:58.267 CEST] [136.975] [-9.0/-49.0 dBFS] [40.1 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 3
+
+[2025-08-25 14:30:59.332 CEST] [136.975] [-9.0/-48.6 dBFS] [39.6 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4040
+   IDRP Update: seq: 9 ack: 6 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1603
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:30:59.485 CEST] [136.975] [-8.5/-48.8 dBFS] [40.3 dB] [2.7 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4050
+   IDRP Cease: seq: 9 ack: 6 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:30:59.639 CEST] [136.975] [-8.9/-48.9 dBFS] [40.0 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  88 84 08
+
+[2025-08-25 14:30:59.790 CEST] [136.975] [1.7/-48.9 dBFS] [50.6 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:31:04.057 CEST] [136.975] [1.8/-48.4 dBFS] [50.2 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:31:04.210 CEST] [136.975] [-12.8/-48.5 dBFS] [35.6 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x01 (Invalid P(S))
+
+[2025-08-25 14:31:04.513 CEST] [136.975] [1.7/-48.9 dBFS] [50.7 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:31:05.125 CEST] [136.975] [-9.1/-48.8 dBFS] [39.7 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+
+[2025-08-25 14:31:14.267 CEST] [136.975] [-12.3/-48.6 dBFS] [36.3 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x40f4
+   IDRP Update: seq: 9 ack: 6 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1603
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:31:14.418 CEST] [136.975] [-12.4/-48.7 dBFS] [36.3 dB] [2.4 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4104
+   IDRP Cease: seq: 9 ack: 6 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:31:14.875 CEST] [136.975] [-9.0/-49.0 dBFS] [40.0 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  66 62 08
+
+[2025-08-25 14:31:14.876 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:31:16.553 CEST] [136.975] [-6.2/-49.1 dBFS] [42.8 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:31:23.867 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:31:24.019 CEST] [136.975] [-8.9/-49.1 dBFS] [40.2 dB] [0.8 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:31:25.087 CEST] [136.975] [-8.8/-48.9 dBFS] [40.1 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:31:29.202 CEST] [136.975] [-8.9/-48.9 dBFS] [40.0 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4167
+   IDRP Cease: seq: 10 ack: 6 credit_offered: 0 credit_avail: 2
+
+[2025-08-25 14:31:29.962 CEST] [136.975] [1.9/-49.0 dBFS] [50.8 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x1d
+   IDRP Open: seq: 9 ack: 9 credit_offered: 3 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:31:30.116 CEST] [136.975] [-12.9/-49.0 dBFS] [36.2 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x416b
+   IDRP Cease: seq: 10 ack: 6 credit_offered: 0 credit_avail: 2
+
+[2025-08-25 14:31:30.572 CEST] [136.975] [1.8/-49.2 dBFS] [51.1 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x1e
+   IDRP Cease: seq: 10 ack: 9 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:31:31.486 CEST] [136.975] [-8.9/-49.2 dBFS] [40.3 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:31:33.924 CEST] [136.975] [1.7/-48.7 dBFS] [50.4 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:31:34.076 CEST] [136.975] [-9.1/-48.7 dBFS] [39.5 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 5 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 3
+
+[2025-08-25 14:31:34.991 CEST] [136.975] [1.7/-49.0 dBFS] [50.7 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:31:40.781 CEST] [136.975] [-8.9/-48.9 dBFS] [40.0 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x41c7
+   IDRP Open: seq: 11 ack: 6 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:31:41.086 CEST] [136.975] [1.8/-48.1 dBFS] [49.9 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 5 rseq: 5 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x1f
+   IDRP Open: seq: 10 ack: 11 credit_offered: 3 credit_avail: 4
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:31:41.238 CEST] [136.975] [-12.8/-48.3 dBFS] [35.5 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x41d1
+   IDRP Keepalive: seq: 12 ack: 10 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:31:41.390 CEST] [136.975] [-12.7/-48.8 dBFS] [36.1 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 6 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x41d2
+   IDRP Update: seq: 12 ack: 10 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 1604
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:31:41.696 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 6 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x20
+   IDRP Update: seq: 11 ack: 11 credit_offered: 3 credit_avail: 3
+    Route:
+     ID: 6
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: all
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+
+[2025-08-25 14:31:41.848 CEST] [136.975] [-12.6/-49.1 dBFS] [36.5 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  0c ca 08
+
+[2025-08-25 14:31:41.999 CEST] [136.975] [1.7/-49.2 dBFS] [50.9 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:31:42.610 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 6
+
+[2025-08-25 14:31:42.762 CEST] [136.975] [-12.6/-49.0 dBFS] [36.5 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:31:45.810 CEST] [136.975] [-8.8/-49.0 dBFS] [40.2 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:31:49.772 CEST] [136.975] [-9.0/-49.1 dBFS] [40.1 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:31:54.190 CEST] [136.975] [-8.9/-48.6 dBFS] [39.7 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:31:58.763 CEST] [136.975] [-9.2/-48.9 dBFS] [39.7 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:32:06.992 CEST] [136.975] [-9.2/-48.7 dBFS] [39.5 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+
+[2025-08-25 14:33:04.134 CEST] [136.975] [-9.0/-49.0 dBFS] [39.9 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+
+[2025-08-25 14:33:18.459 CEST] [136.975] [-6.0/-48.6 dBFS] [42.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+
+
+[2025-08-25 14:35:05.126 CEST] [136.975] [-8.9/-48.9 dBFS] [40.0 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:35:11.373 CEST] [136.975] [1.9/-48.8 dBFS] [50.7 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment
+  Public params:
+   Parameter set ID: 8885:1993
+   HDLC options: 20 84 80
+   Procedure classes: 00 01
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 5 retry: 0
+   AVLC specific options: 64
+   Modulation support: VDL-M2, D8PSK, 31500 bps
+   Aircraft location: xN yE 0 ft
+
+[2025-08-25 14:35:11.525 CEST] [136.975] [-7.6/-48.8 dBFS] [41.2 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 5 retry: 0
+   AVLC specific options: 64
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:35:11.830 CEST] [136.975] [1.8/-49.5 dBFS] [51.2 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 4 More: 0 Ack: ! Msg num: M03A
+
+[2025-08-25 14:35:12.134 CEST] [136.975] [-9.9/-49.1 dBFS] [39.3 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 4
+
+[2025-08-25 14:35:12.593 CEST] [136.975] [-9.8/-48.8 dBFS] [39.0 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Call Accepted: grp: 11 chan: 255 src: 22677777 dst: 1116900402899
+  Facilities:
+   Max. packet size:
+    From calling DTE: 256 bytes
+    From called  DTE: 256 bytes
+   Window size:
+    From calling DTE: 4 packets
+    From called  DTE: 4 packets
+   Called line address modified: 0f
+  Compression support: LREF, LREF-CAN
+  M/I: 0
+  ES-IS IS Hello: Hold Time: 65534 sec
+   NET: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Options:
+    ATN Data Link Capabilities: 01
+    Mobile Subnetwork Capabilities:
+     Permitted traffic: all
+     Supported ATSC classes: A
+
+[2025-08-25 14:35:13.050 CEST] [136.975] [1.9/-49.5 dBFS] [51.4 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:35:16.251 CEST] [136.975] [-6.3/-49.0 dBFS] [42.8 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data:
+   Src NSAP: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Dst NSAP: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+   Lifetime: 20.0 sec
+   Flags: SP E/R
+   Segmentation:
+    PDU Id: 0x49ed
+    Segment offset: 0
+    PDU total length: 140
+    CLNP reasm status: skipped
+   Options:
+    LRef: 0x40
+    QoS maintenance: 0xd6
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Traffic type:
+       Type: ATN system management
+       Category: none
+       Route policy: 0x00
+    Priority: 0x0e
+   IDRP Open: seq: 2 ack: 0 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:35:16.251 CEST] [136.975] [-6.3/-49.0 dBFS] [42.8 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data:
+   Src NSAP: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Dst NSAP: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+   Lifetime: 20.0 sec
+   Flags: SP E/R
+   Segmentation:
+    PDU Id: 0x49ed
+    Segment offset: 0
+    PDU total length: 140
+    CLNP reasm status: skipped
+   Options:
+    LRef: 0x40
+    QoS maintenance: 0xd6
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Traffic type:
+       Type: ATN system management
+       Category: none
+       Route policy: 0x00
+    Priority: 0x0e
+   IDRP Open: seq: 2 ack: 0 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:35:16.402 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:35:16.706 CEST] [136.975] [1.9/-49.2 dBFS] [51.1 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x22
+   IDRP Open: seq: 12 ack: 2 credit_offered: 3 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:35:16.859 CEST] [136.975] [-10.0/-49.0 dBFS] [39.0 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4a1e
+   IDRP Keepalive: seq: 3 ack: 12 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:35:18.077 CEST] [136.975] [-10.1/-49.2 dBFS] [39.1 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4a1f
+   IDRP Update: seq: 3 ack: 12 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3181
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:35:18.077 CEST] [136.975] [-10.1/-49.2 dBFS] [39.1 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:35:18.231 CEST] [136.975] [-12.3/-49.5 dBFS] [37.2 dB] [2.4 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4a2f
+   IDRP Cease: seq: 3 ack: 12 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:35:18.534 CEST] [136.975] [-6.3/-49.1 dBFS] [42.8 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4a32
+   IDRP Keepalive: seq: 4 ack: 13 credit_offered: 4 credit_avail: 2
+
+[2025-08-25 14:35:18.535 CEST] [136.975] [2.0/-49.1 dBFS] [51.1 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:35:18.536 CEST] [136.975] [1.8/-48.8 dBFS] [50.7 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 4
+
+[2025-08-25 14:35:19.297 CEST] [136.975] [-6.4/-49.1 dBFS] [42.8 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 5
+
+[2025-08-25 14:35:19.602 CEST] [136.975] [2.0/-48.6 dBFS] [50.6 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x24
+   IDRP Cease: seq: 14 ack: 3 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:35:20.363 CEST] [136.975] [1.8/-49.1 dBFS] [50.9 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 7
+
+[2025-08-25 14:35:22.955 CEST] [136.975] [2.0/-49.2 dBFS] [51.2 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 6 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:35:23.564 CEST] [136.975] [-6.4/-49.1 dBFS] [42.8 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:35:23.717 CEST] [136.975] [-6.5/-49.1 dBFS] [42.6 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 7
+
+[2025-08-25 14:35:32.858 CEST] [136.975] [1.9/-48.7 dBFS] [50.5 dB] [0.4 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 7 rseq: 7 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:35:32.859 CEST] [136.975] [-6.3/-48.7 dBFS] [42.4 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 5
+
+[2025-08-25 14:35:33.468 CEST] [136.975] [1.8/-49.0 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 0
+
+[2025-08-25 14:35:42.916 CEST] [136.975] [1.9/-48.6 dBFS] [50.5 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:35:43.678 CEST] [136.975] [-6.3/-48.5 dBFS] [42.2 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 1
+
+[2025-08-25 14:35:48.858 CEST] [136.975] [1.8/-49.1 dBFS] [50.9 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x25
+   IDRP Open: seq: 14 ack: 3 credit_offered: 3 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:35:48.859 CEST] [136.975] [-6.6/-48.8 dBFS] [42.2 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 2 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 7
+
+[2025-08-25 14:35:49.011 CEST] [136.975] [-10.2/-49.1 dBFS] [38.9 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4b48
+   IDRP Open: seq: 5 ack: 14 credit_offered: 4 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:35:49.317 CEST] [136.975] [1.9/-49.5 dBFS] [51.4 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x26
+   IDRP Keepalive: seq: 15 ack: 5 credit_offered: 3 credit_avail: 4
+
+[2025-08-25 14:35:49.621 CEST] [136.975] [-10.2/-49.4 dBFS] [39.3 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4b4e
+   IDRP Update: seq: 6 ack: 14 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3182
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:35:49.773 CEST] [136.975] [-12.3/-49.2 dBFS] [37.0 dB] [2.4 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4b5e
+   IDRP Cease: seq: 6 ack: 14 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:35:50.079 CEST] [136.975] [1.7/-48.9 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x27
+   IDRP Update: seq: 15 ack: 5 credit_offered: 3 credit_avail: 3
+    Route:
+     ID: 8
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: all
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+
+[2025-08-25 14:35:50.231 CEST] [136.975] [-10.2/-48.8 dBFS] [38.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  86 64 08
+
+[2025-08-25 14:35:50.535 CEST] [136.975] [1.6/-49.5 dBFS] [51.1 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:35:50.536 CEST] [136.975] [2.0/-49.2 dBFS] [51.2 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 0
+
+[2025-08-25 14:35:50.687 CEST] [136.975] [-10.3/-49.1 dBFS] [38.8 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:35:50.841 CEST] [136.975] [1.8/-49.5 dBFS] [51.3 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x28
+   IDRP Cease: seq: 16 ack: 6 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:35:51.602 CEST] [136.975] [-10.1/-49.6 dBFS] [39.5 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:35:51.906 CEST] [136.975] [1.7/-49.6 dBFS] [51.2 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:35:52.669 CEST] [136.975] [-6.4/-49.0 dBFS] [42.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:35:53.126 CEST] [136.975] [2.0/-48.4 dBFS] [50.4 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:35:53.887 CEST] [136.975] [-6.4/-49.2 dBFS] [42.8 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:35:56.479 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 4 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 4 More: 0 Ack: ! Msg num: M03A
+
+[2025-08-25 14:35:56.934 CEST] [136.975] [-10.1/-49.4 dBFS] [39.2 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 4
+
+[2025-08-25 14:35:57.393 CEST] [136.975] [1.9/-48.9 dBFS] [50.8 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:36:03.031 CEST] [136.975] [1.7/-48.8 dBFS] [50.6 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 5 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:36:03.183 CEST] [136.975] [-6.5/-49.1 dBFS] [42.6 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 6 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:36:03.792 CEST] [136.975] [1.7/-49.3 dBFS] [51.0 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:36:04.706 CEST] [136.975] [-6.3/-49.2 dBFS] [42.9 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4bbb
+   IDRP Update: seq: 6 ack: 14 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3182
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:36:04.859 CEST] [136.975] [-8.2/-49.2 dBFS] [41.0 dB] [2.4 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4bcb
+   IDRP Cease: seq: 6 ack: 14 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:36:05.164 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 6 rseq: 5 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:36:05.165 CEST] [136.975] [-6.5/-48.9 dBFS] [42.4 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  ac c6 08
+
+[2025-08-25 14:36:05.315 CEST] [136.975] [1.5/-48.9 dBFS] [50.4 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+
+[2025-08-25 14:36:13.088 CEST] [136.975] [1.8/-49.1 dBFS] [50.9 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:36:13.241 CEST] [136.975] [-6.3/-49.0 dBFS] [42.7 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:36:13.546 CEST] [136.975] [1.7/-49.4 dBFS] [51.1 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:36:14.307 CEST] [136.975] [-6.8/-49.2 dBFS] [42.4 dB] [0.8 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:36:19.489 CEST] [136.975] [-6.1/-49.1 dBFS] [43.0 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4c5e
+   IDRP Update: seq: 6 ack: 14 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3182
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:36:19.793 CEST] [136.975] [-8.5/-49.1 dBFS] [40.6 dB] [2.6 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4c6e
+   IDRP Cease: seq: 6 ack: 14 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:36:20.097 CEST] [136.975] [1.7/-49.2 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:36:20.098 CEST] [136.975] [-6.0/-49.1 dBFS] [43.1 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  64 42 08
+
+[2025-08-25 14:36:20.250 CEST] [136.975] [1.7/-49.0 dBFS] [50.7 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:36:20.555 CEST] [136.975] [-9.8/-49.4 dBFS] [39.6 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:36:21.622 CEST] [136.975] [-9.9/-49.4 dBFS] [39.6 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:36:22.993 CEST] [136.975] [2.0/-48.7 dBFS] [50.6 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:36:23.755 CEST] [136.975] [-6.2/-48.9 dBFS] [42.7 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:36:32.896 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:36:32.897 CEST] [136.975] [-6.1/-48.8 dBFS] [42.7 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:36:33.355 CEST] [136.975] [1.9/-48.9 dBFS] [50.8 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:36:34.574 CEST] [136.975] [-6.0/-49.0 dBFS] [43.0 dB] [0.9 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4cf3
+   IDRP Update: seq: 6 ack: 14 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3182
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:36:34.725 CEST] [136.975] [-8.2/-48.8 dBFS] [40.6 dB] [2.5 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4d03
+   IDRP Cease: seq: 6 ack: 14 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:36:34.727 CEST] [136.975] [1.8/-48.4 dBFS] [50.2 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x2a
+   IDRP Error: seq: 17 ack: 6 credit_offered: 0 credit_avail: 3
+    Code: 4 (FSM error)
+    Erroneous BISPDU type: Error
+    FSM state: OPEN-RCVD
+
+[2025-08-25 14:36:34.879 CEST] [136.975] [-6.0/-48.5 dBFS] [42.5 dB] [1.0 ppm]
+GROUND_Y (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  88 84 08
+
+[2025-08-25 14:36:41.889 CEST] [136.975] [1.8/-48.8 dBFS] [50.6 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_Y (Ground station): Command
+AVLC type: U (DISC) P/F: 0
+
+[2025-08-25 14:36:42.956 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment
+  Public params:
+   Parameter set ID: 8885:1993
+   HDLC options: 20 84 80
+   Procedure classes: 00 01
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 6 retry: 0
+   AVLC specific options: 64
+   Modulation support: VDL-M2, D8PSK, 31500 bps
+   Aircraft location: xN yE 0 ft
+
+[2025-08-25 14:36:43.108 CEST] [136.975] [-11.2/-49.0 dBFS] [37.8 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: U (XID) P/F: 1
+ XID: Link Establishment Response
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   Connection management: 00
+   XID sequencing: seq: 6 retry: 0
+   AVLC specific options: 64
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:36:43.259 CEST] [136.975] [1.7/-49.1 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 5 More: 0 Ack: ! Msg num: M04A
+
+[2025-08-25 14:36:43.717 CEST] [136.975] [-12.7/-49.3 dBFS] [36.6 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 5
+
+[2025-08-25 14:36:43.868 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Call Request: grp: 11 chan: 255 src: 22677777 dst: none
+  Facilities:
+   Fast Select: requested
+   Called address extension: 8c 53 49 54 00 00 01	".SIT..."
+  Compression support: LREF, LREF-CAN
+  M/I: 0
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:36:44.174 CEST] [136.975] [-12.7/-49.3 dBFS] [36.6 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Call Accepted: grp: 11 chan: 255 src: 22677777 dst: 1116900402899
+  Facilities:
+   Max. packet size:
+    From calling DTE: 256 bytes
+    From called  DTE: 256 bytes
+   Window size:
+    From calling DTE: 4 packets
+    From called  DTE: 4 packets
+   Called line address modified: 0f
+  Compression support: LREF, LREF-CAN
+  M/I: 0
+  ES-IS IS Hello: Hold Time: 65534 sec
+   NET: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Options:
+    ATN Data Link Capabilities: 01
+    Mobile Subnetwork Capabilities:
+     Permitted traffic: all
+     Supported ATSC classes: A
+
+[2025-08-25 14:36:44.937 CEST] [136.975] [1.9/-49.1 dBFS] [51.0 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:36:48.287 CEST] [136.975] [-9.1/-49.2 dBFS] [40.1 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data:
+   Src NSAP: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Dst NSAP: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+   Lifetime: 20.0 sec
+   Flags: SP E/R
+   Segmentation:
+    PDU Id: 0x4d45
+    Segment offset: 0
+    PDU total length: 140
+    CLNP reasm status: skipped
+   Options:
+    LRef: 0x40
+    QoS maintenance: 0xd6
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Traffic type:
+       Type: ATN system management
+       Category: none
+       Route policy: 0x00
+    Priority: 0x0e
+   IDRP Open: seq: 8 ack: 14 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:36:48.287 CEST] [136.975] [-9.1/-49.2 dBFS] [40.1 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data:
+   Src NSAP: 47 00 27 01 53 49 54 00 59 55 4c 00 01 08 00 20 ff ba 45 00	"G.'.SIT.YUL.... ..E."
+   Dst NSAP: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+   Lifetime: 20.0 sec
+   Flags: SP E/R
+   Segmentation:
+    PDU Id: 0x4d45
+    Segment offset: 0
+    PDU total length: 140
+    CLNP reasm status: skipped
+   Options:
+    LRef: 0x40
+    QoS maintenance: 0xd6
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Traffic type:
+       Type: ATN system management
+       Category: none
+       Route policy: 0x00
+    Priority: 0x0e
+   IDRP Open: seq: 8 ack: 14 credit_offered: 4 credit_avail: 0
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:36:48.898 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:36:48.899 CEST] [136.975] [1.9/-48.9 dBFS] [50.8 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x2b
+   IDRP Open: seq: 17 ack: 8 credit_offered: 3 credit_avail: 4
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:36:49.202 CEST] [136.975] [-12.9/-49.2 dBFS] [36.3 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4d73
+   IDRP Keepalive: seq: 9 ack: 17 credit_offered: 4 credit_avail: 3
+
+[2025-08-25 14:36:50.573 CEST] [136.975] [-9.8/-49.1 dBFS] [39.3 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4d74
+   IDRP Update: seq: 9 ack: 17 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3183
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:36:50.573 CEST] [136.975] [-9.8/-49.1 dBFS] [39.3 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:36:50.726 CEST] [136.975] [-7.9/-49.0 dBFS] [41.1 dB] [2.4 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4d84
+   IDRP Cease: seq: 9 ack: 17 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:36:51.030 CEST] [136.975] [-9.1/-49.0 dBFS] [39.9 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 5 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 3 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4d86
+   IDRP Keepalive: seq: 10 ack: 18 credit_offered: 4 credit_avail: 2
+
+[2025-08-25 14:36:51.032 CEST] [136.975] [1.7/-49.2 dBFS] [51.0 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:36:51.184 CEST] [136.975] [1.7/-49.1 dBFS] [50.8 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 6
+
+[2025-08-25 14:36:52.251 CEST] [136.975] [-9.1/-48.6 dBFS] [39.5 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 5
+
+[2025-08-25 14:36:52.556 CEST] [136.975] [1.9/-48.8 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 5 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 4 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x2d
+   IDRP Cease: seq: 19 ack: 9 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:36:52.859 CEST] [136.975] [-12.9/-48.8 dBFS] [35.9 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 6 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 4 rseq: 3 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4da4
+   IDRP Cease: seq: 10 ack: 18 credit_offered: 0 credit_avail: 2
+
+[2025-08-25 14:36:53.317 CEST] [136.975] [1.7/-49.2 dBFS] [50.9 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 7
+
+[2025-08-25 14:36:55.146 CEST] [136.975] [-9.1/-48.8 dBFS] [39.8 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 7
+
+
+[2025-08-25 14:37:04.592 CEST] [136.975] [-9.0/-48.6 dBFS] [39.7 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 7 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 5
+
+[2025-08-25 14:37:05.354 CEST] [136.975] [1.9/-48.8 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 0
+
+[2025-08-25 14:37:12.060 CEST] [136.975] [-8.9/-48.5 dBFS] [39.6 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:37:14.498 CEST] [136.975] [1.7/-48.8 dBFS] [50.5 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:37:15.259 CEST] [136.975] [-8.9/-49.1 dBFS] [40.2 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 1
+
+[2025-08-25 14:37:21.354 CEST] [136.975] [1.8/-48.7 dBFS] [50.5 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 5 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x2e
+   IDRP Open: seq: 19 ack: 9 credit_offered: 3 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:37:21.355 CEST] [136.975] [-8.8/-48.9 dBFS] [40.1 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 2 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 7
+
+[2025-08-25 14:37:21.508 CEST] [136.975] [-12.5/-49.2 dBFS] [36.7 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 5 rseq: 7 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4ee3
+   IDRP Open: seq: 11 ack: 19 credit_offered: 4 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 3000 octets
+    Source RDI: 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:37:21.812 CEST] [136.975] [1.7/-49.5 dBFS] [51.2 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x2f
+   IDRP Keepalive: seq: 20 ack: 11 credit_offered: 3 credit_avail: 4
+
+[2025-08-25 14:37:21.964 CEST] [136.975] [-12.6/-49.1 dBFS] [36.5 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 6 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4ee6
+   IDRP Update: seq: 12 ack: 19 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3184
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:37:22.117 CEST] [136.975] [-12.0/-49.0 dBFS] [37.0 dB] [2.5 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 3 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 7 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4ef6
+   IDRP Cease: seq: 12 ack: 19 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:37:22.573 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 6 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x30
+   IDRP Update: seq: 20 ack: 11 credit_offered: 3 credit_avail: 3
+    Route:
+     ID: 10
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: all
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RD hop count: 1
+    Capacity: 13
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 88
+     Dest. address prefix: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+
+[2025-08-25 14:37:22.574 CEST] [136.975] [-12.7/-49.4 dBFS] [36.7 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  86 64 08
+
+[2025-08-25 14:37:22.726 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:37:23.031 CEST] [136.975] [1.8/-49.2 dBFS] [51.0 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 0
+
+[2025-08-25 14:37:23.184 CEST] [136.975] [-12.7/-49.5 dBFS] [36.8 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:37:23.945 CEST] [136.975] [1.9/-49.2 dBFS] [51.1 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 1 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x31
+   IDRP Cease: seq: 21 ack: 12 credit_offered: 0 credit_avail: 3
+
+[2025-08-25 14:37:24.556 CEST] [136.975] [-8.8/-49.2 dBFS] [40.4 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:37:24.860 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Reset Confirm: grp: 11 chan: 255
+
+[2025-08-25 14:37:25.622 CEST] [136.975] [-9.1/-48.9 dBFS] [39.8 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:37:25.926 CEST] [136.975] [1.8/-48.7 dBFS] [50.4 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:37:26.840 CEST] [136.975] [-8.9/-49.2 dBFS] [40.3 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 4
+
+[2025-08-25 14:37:28.212 CEST] [136.975] [1.7/-48.7 dBFS] [50.5 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 4 rseq: 1 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC Flight: HB0000
+  Mode: 2 Label: Q0 Blk id: 5 More: 0 Ack: ! Msg num: M04A
+
+[2025-08-25 14:37:28.670 CEST] [136.975] [-8.9/-49.3 dBFS] [40.4 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 5 poll: 0
+ ACARS:
+  Reassembly: skipped
+  Reg: ..CPDLC
+  Mode: 2 Label: _d Blk id: A More: 0 Ack: 5
+
+[2025-08-25 14:37:29.279 CEST] [136.975] [1.8/-49.3 dBFS] [51.1 dB] [-0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:37:34.459 CEST] [136.975] [1.7/-48.8 dBFS] [50.4 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 5 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:37:34.460 CEST] [136.975] [-8.9/-48.6 dBFS] [39.8 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 6 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:37:35.068 CEST] [136.975] [1.8/-49.1 dBFS] [50.9 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+[2025-08-25 14:37:36.898 CEST] [136.975] [-9.0/-48.9 dBFS] [39.9 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x4f86
+   IDRP Update: seq: 12 ack: 19 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3184
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:37:37.050 CEST] [136.975] [-8.0/-48.5 dBFS] [40.6 dB] [2.6 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 4 rseq: 6 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x4f96
+   IDRP Cease: seq: 12 ack: 19 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:37:37.508 CEST] [136.975] [1.9/-49.2 dBFS] [51.1 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 6 rseq: 5 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:37:37.660 CEST] [136.975] [-8.9/-48.9 dBFS] [40.1 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  ac c6 08
+
+[2025-08-25 14:37:37.661 CEST] [136.975] [1.7/-49.1 dBFS] [50.8 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:37:38.574 CEST] [136.975] [-6.4/-49.0 dBFS] [42.6 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+[2025-08-25 14:37:44.974 CEST] [136.975] [2.0/-49.1 dBFS] [51.0 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:37:44.975 CEST] [136.975] [-8.8/-48.9 dBFS] [40.0 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:37:46.042 CEST] [136.975] [-8.9/-49.1 dBFS] [40.2 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:37:51.984 CEST] [136.975] [-8.7/-49.0 dBFS] [40.3 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x502e
+   IDRP Update: seq: 12 ack: 19 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3184
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:37:52.136 CEST] [136.975] [-8.1/-48.8 dBFS] [40.7 dB] [2.5 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 2 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x503e
+   IDRP Cease: seq: 12 ack: 19 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:37:52.289 CEST] [136.975] [1.8/-49.1 dBFS] [50.9 dB] [0.1 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 3 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:37:52.290 CEST] [136.975] [-8.8/-49.0 dBFS] [40.2 dB] [0.9 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  64 42 08
+
+[2025-08-25 14:37:52.440 CEST] [136.975] [1.8/-49.0 dBFS] [50.8 dB] [0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:37:53.051 CEST] [136.975] [1.9/-49.5 dBFS] [51.4 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 0 rseq: 0 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x32
+   IDRP Open: seq: 21 ack: 12 credit_offered: 3 credit_avail: 3
+    Hold Time: 900 seconds
+    Max. PDU size: 1024 octets
+    Source RDI: 47 00 27 c1 53 55 49 00 xx xx xx	"G.'.SUI.K.."
+    RIB Attribute Set:
+     RibAtt #0:
+      Security:
+       Reg ID: 06 04 2b 1b 00 00
+    Auth mechanism: simple checksum
+
+[2025-08-25 14:37:53.051 CEST] [136.975] [-8.9/-49.5 dBFS] [40.6 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 0 rseq: 1 poll: 0
+ X.25 Reset Request: grp: 11 chan: 255
+  Cause: 0x05 (Local procedure error)
+  Diagnostic code: 0x02 (Invalid P(R))
+
+[2025-08-25 14:37:54.117 CEST] [136.975] [-8.8/-49.2 dBFS] [40.5 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:37:54.728 CEST] [136.975] [1.6/-49.0 dBFS] [50.7 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 2 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:37:55.490 CEST] [136.975] [-9.0/-48.5 dBFS] [39.4 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 3
+
+
+[2025-08-25 14:38:04.480 CEST] [136.975] [1.9/-48.6 dBFS] [50.5 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 3 rseq: 1 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 0 more: 0
+  X.25 reasm status: skipped
+  ES-IS IS Hello: Hold Time: 30 sec
+   NET: 47 00 27 c1 53 55 49 00 xx xx xx 01 01 55 4c 38 30 58 31 00	"G.'.SUI.K....UL80X1."
+
+[2025-08-25 14:38:04.631 CEST] [136.975] [-9.1/-48.9 dBFS] [39.7 dB] [1.1 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 1 rseq: 4 poll: 0
+ X.25 Receive Ready: grp: 11 chan: 255 rseq: 2
+
+[2025-08-25 14:38:05.240 CEST] [136.975] [1.7/-49.1 dBFS] [50.8 dB] [0.3 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: S (Receive Ready) P/F: 0 rseq: 2
+
+[2025-08-25 14:38:06.918 CEST] [136.975] [-8.9/-48.8 dBFS] [39.9 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 2 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 0 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 20.0 sec
+   PDU Id: 0x50d4
+   IDRP Update: seq: 12 ack: 19 credit_offered: 4 credit_avail: 2
+    Route:
+     ID: 3184
+     Local preference: 0
+    Security:
+     Reg ID: 06 04 2b 1b 00 00
+     Info:
+      Supported ATSC classes: A
+      Subnetwork type:
+       Subnet: VDL
+       Permitted traffic: all
+    RD path:
+     RD_SEQ:
+      47 00 27 01 53 49 54 00 00 00 01 0b 47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.....G.'.SIT.YUL"
+      47 00 27 01 53 49 54 00 59 55 4c	"G.'.SIT.YUL"
+    RD hop count: 2
+    Capacity: 12
+    Reachability info:
+     Protocol: CLNP
+     Prefix length: 32
+     Dest. address prefix: 47 00 27 01 20 47 00 27 81	"G.'. G.'."
+
+[2025-08-25 14:38:07.069 CEST] [136.975] [-8.1/-48.7 dBFS] [40.5 dB] [2.5 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: I sseq: 3 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 1 rseq: 2 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 11 Flags: 0xd6
+   Lifetime: 18.5 sec
+   PDU Id: 0x50e4
+   IDRP Cease: seq: 12 ack: 19 credit_offered: 0 credit_avail: 0
+
+[2025-08-25 14:38:07.526 CEST] [136.975] [1.8/-48.9 dBFS] [50.8 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: I sseq: 4 rseq: 4 poll: 0
+ X.25 Data: grp: 11 chan: 255 sseq: 2 rseq: 1 more: 0
+  X.25 reasm status: skipped
+  X.233 CLNP Data (compressed header):
+   LRef: 0x40 Prio: 14 Flags: 0xf6
+   Lifetime: 32.0 sec
+   PDU Id: 0x33
+   IDRP Error: seq: 22 ack: 12 credit_offered: 0 credit_avail: 3
+    Code: 4 (FSM error)
+    Erroneous BISPDU type: Error
+    FSM state: OPEN-RCVD
+
+[2025-08-25 14:38:07.527 CEST] [136.975] [-8.9/-49.0 dBFS] [40.0 dB] [1.2 ppm]
+GROUND_X (Ground station, On ground) -> AIRCRAFT (Aircraft): Command
+AVLC type: U (FRMR) P/F: 1
+ Data (3 bytes):
+  88 84 08
+
+[2025-08-25 14:38:07.527 CEST] [136.975] [1.8/-48.9 dBFS] [50.7 dB] [-0.0 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Response
+AVLC type: U (UA) P/F: 1
+
+[2025-08-25 14:38:13.470 CEST] [136.975] [1.7/-48.8 dBFS] [50.5 dB] [0.2 ppm]
+AIRCRAFT (Aircraft, On ground) -> GROUND_X (Ground station): Command
+AVLC type: U (DISC) P/F: 0
+
+
+[2025-08-25 14:39:24.174 CEST] [136.975] [-8.9/-48.9 dBFS] [40.1 dB] [1.0 ppm]
+GROUND_X (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
+
+[2025-08-25 14:39:51.603 CEST] [136.975] [-6.2/-48.6 dBFS] [42.4 dB] [1.1 ppm]
+GROUND_Y (Ground station, On ground) -> FFFFFF (Aircraft): Command
+AVLC type: U (XID) P/F: 0
+ XID: Ground Station Information Frame
+  Public params:
+   Parameter set ID: 8885:1993
+   Procedure classes: 00 01
+   HDLC options: 20 a4 88
+  VDL params:
+   Parameter set ID: V
+   AVLC specific options: 64
+   Frequency support list:
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+    Ground station: xxxxxx
+     Frequency: 136.875 MHz (VDL-M2, D8PSK, 31500 bps)
+   Timer T4: 00 02
+   Airport coverage: xxxx
+   ATN router NETs: 53 49 54 00 00 01	"SIT..."
+   System mask: 200000
+   Ground station location: xN yE
+
