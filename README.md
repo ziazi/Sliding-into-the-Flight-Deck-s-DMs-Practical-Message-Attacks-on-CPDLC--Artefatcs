@@ -54,4 +54,4 @@ Associated with **Section 5.1.4 (Malformed Frame Injection)**.
 
 ## Summary
 
-These logs serve as concrete artefacts validating the feasibility and impact of the attacks described in **Section 5 (Practical Attacks on CPDLC)**. Together, they demonstrate the vulnerability of CPDLC communications to protocol-level manipulations, ranging from DoS to the injection of rogue control messages, under realistic experimental conditions.  
+These logs serve as concrete artefacts validating the feasibility and impact of the attacks described in **Section 5 (Practical Attacks on CPDLC)**. Together, they demonstrate the vulnerability of PM CPDLC communications to protocol-level manipulations, ranging from DoS to RGS attacks, under realistic experimental conditions.  
