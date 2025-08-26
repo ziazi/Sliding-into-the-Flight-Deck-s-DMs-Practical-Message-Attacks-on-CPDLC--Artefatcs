@@ -6,9 +6,7 @@ This repository contains the artefacts associated with the attacks described in 
 ## Methodology
 
 - **Traffic Capture:** All logs were collected using `dumpvdl2`, ensuring a faithful representation of the CPDLC traffic during experiments.  
-- **DoS Attack Procedure:** For all denial-of-service (DoS) attacks (except the *Malformed Frame Injection*, which is included only for illustrative purposes), the aircraft hardware was prompted to establish a CPDLC session with the legitimate test ATC.  
-  - Whenever the hardware timed out or disconnected, a new session was requested.  
-  - This maximized the number of teardown events observed, simulated a more realistic operational scenario, and demonstrated the potential severity of such attacks.  
+- **DoS Attack Procedure:** For all denial-of-service (DoS) attacks (except the *Malformed Frame Injection*, which is included only for illustrative purposes), the aircraft hardware was prompted to establish a CPDLC session with the legitimate test ATC.Upon timeout or disconnection, a new session was requested to maximize resilience attempts against our attacks, simulate a more realistic scenario, and capture as many teardown events as possible within the experiment duration. The aircraft hardware still failing to establish a CPDLC session demonstrated the potential severity of such attacks.
 - **Rogue Ground Station Transmission:** In the *RGS* experiment, the aircraft hardware was induced to accept adversarial CPDLC messages, which were displayed as legitimate.  
 
 ---
